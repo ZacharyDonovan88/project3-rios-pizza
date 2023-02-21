@@ -87,26 +87,6 @@ function showSlides(n) {
         <span className="dot" onClick={() => currentSlide(2)}></span>
       </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <nav>
-        <ul>
-          <li>
-            <Link to="/pizza">Pizza</Link>
-          </li>
-        </ul>
-      </nav>
     </>
   );
 }
