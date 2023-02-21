@@ -21,3 +21,26 @@ h1 {
   margin-right: auto;
   border-radius: 3px;
 }
+/* end of header */
+
+/* pages */
+.pagesSection {
+  width: 90%;
+  display:inline-block;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+.menuSection {
+  width: 85%;
+  display:inline-block;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+  margin-top: 50px;
+  background-color: grey;
+  height: 100px;
+}
