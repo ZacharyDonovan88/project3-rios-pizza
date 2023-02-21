@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
-import "./css/slide.css"
+import "./css/slide.css";
+import "../App.css"
 
 
 
@@ -53,7 +54,7 @@ function showSlides(n) {
 
   return (
     <>
-      <div>
+      <div className="header">
         <h1>Rios Pizza</h1>
       </div>
       <div className="slideshow-container">
@@ -85,6 +86,19 @@ function showSlides(n) {
         <span className="dot" onClick={() => currentSlide(1)}></span>
         <span className="dot" onClick={() => currentSlide(2)}></span>
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       <nav>
         <ul>
