@@ -6,6 +6,10 @@ h1 {
   font-size: 44px;
 }
 
+h2 {
+  
+}
+
 /* end of general */
 
 /* header */
@@ -32,16 +36,6 @@ h1 {
   margin-right: auto;
   border-radius: 3px;
   margin-top: 20px;
-}
-.menuSection {
-  width: 85%;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 3px;
-  margin-top: 50px;
-  background-color: grey;
-  height: 100px;
 }
 
 /* end of pages */
