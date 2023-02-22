@@ -1,10 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import "../App.css";
 import "./css/menu.css";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
+
+
+
+// pop ups
+import Pep from "./popUpPages/Pep.js";
+import Marg from "./popUpPages/Marg.js";
+
+
+
+
 
 const Pizza = () => {
+    
+
+    const [showPep, setShowPep] = useState(false);
+    const togglePep = () => {
+      setShowPep(!showPep);
+    };
   
+    const [showMarg, setShowMarg] = useState(false);
+    const toggleMarg = () => {
+        setShowMarg(!showMarg);
+      };
+      
+
     return (
       <> 
         <div className="pagesSection">
@@ -15,20 +37,24 @@ const Pizza = () => {
                 <div className="menuSection">
                         <div>
 
-                        
+                            {/* Pepperoni  */}
                             <div className="boxMargin">
-                                <a href="" target="_blank"><img src={require('../components/assets/images/pizza/pep.jpg')} alt="Circle WebSite"/></a>
+                                <a onClick={togglePep}><img src={require('../components/assets/images/pizza/pep.jpg')} alt="Circle WebSite"/></a>
                                     <div className="productName">
-                                        <a><Link to="/">Pepperoni</Link></a>
+                                        <a onClick={togglePep}>Pepperoni</a>
                                     </div>
                             </div>
+                            {showPep && <Pep onClose={togglePep} />}
+
+
                         
                             <div className="boxMargin">
-                                <a href="" target="_blank"><img src={require('../components/assets/images/pizza/mar.jpg')} alt="Circle WebSite"/></a>
+                                <a onClick={toggleMarg}><img src={require('../components/assets/images/pizza/mar.jpg')} alt="Circle WebSite"/></a>
                                     <div className="productName">
-                                        <a><Link to="/">Margherita</Link></a>
+                                    <a onClick={toggleMarg}>Margherita</a>
                                     </div>
                             </div>
+                            {showMarg && <Marg onClose={toggleMarg} />}
                         
                             <div className="boxMargin">
                                 <a href="" target="_blank"><img src={require('../components/assets/images/pizza/meat.jpg')} alt="Circle WebSite"/></a>

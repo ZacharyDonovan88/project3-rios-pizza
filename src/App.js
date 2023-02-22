@@ -16,7 +16,6 @@ function App() {
           <Home />
           <Navbar />
           <Routes>
-            <Route exact path="/" element={<Home />} />
             <Route exact path="/Pizza" element={<Pizza />} />
           </Routes>
           <Footer />
