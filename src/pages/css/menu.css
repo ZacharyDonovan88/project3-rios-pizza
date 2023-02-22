@@ -12,6 +12,7 @@
 .menuSection img {
     height: 200px;
     float: left;
+    border-radius: 8px;
 }
 
 .productName {
@@ -20,6 +21,9 @@
     padding: 2px;
     position: absolute;
     display: block;
+    border-style: solid;
+    border-color: green;
+    border-width: 3px;
 }
 
 .productName a {
