@@ -5,12 +5,10 @@ const Footer = () => {
   
     return (
       <>
-        <div>
+        <div className="footer">
             <div>
-                <h4>Phone Number: +000 000 000</h4>
-            </div>
-            <div>
-                <h4>Address: Adelaide, Rios Pizza</h4>
+                <h4 id="phone">Phone Number: <a href="#0000000">+000 000 000</a></h4>
+                <h4 id="address">Address: <a href="Adelaide">Adelaide, Rios Pizza</a></h4>
             </div>
         </div>
       </>
