@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home.js";
 import Pizza from "./pages/Pizza.js";
 import Navbar from "./components/Navbar.js";
+import Footer from "./components/Footer.js";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route exact path="/" element={<Home />} />
             <Route exact path="/Pizza" element={<Pizza />} />
           </Routes>
+          <Footer />
         </>
       </Router>
   );
