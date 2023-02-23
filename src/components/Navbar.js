@@ -25,7 +25,7 @@ function Home() {
             <Link to="/Desserts">Desserts</Link>
             </li>  
             <li>
-            <Link to="/pizza">Deals</Link>
+            <Link to="/Deals">Deals</Link>
             </li>  
         </ul>
       </nav>
