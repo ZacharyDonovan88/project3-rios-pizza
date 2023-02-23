@@ -16,7 +16,7 @@ function Home() {
             <Link to="/pizza">Pizza</Link>
             </li>
             <li>
-            <Link to="/pizza">Sides</Link>
+            <Link to="/Sides">Sides</Link>
             </li>  
             <li>
             <Link to="/pizza">Drinks</Link>
