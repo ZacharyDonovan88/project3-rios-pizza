@@ -1,5 +1,11 @@
 /* general */
 
+body {
+  background-image: url("./components/assets/images/mainBg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 h1 {
   text-align: center;
   color: white;
@@ -15,7 +21,7 @@ h2 {
 /* header */
 .header {
   height: 100px;
-  background-color: red;
+  background-color: black;
   width: 90%;
   display:inline-block;
   text-align: center;
@@ -24,7 +30,32 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   border-radius: 3px;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 2;
 }
+
+.vinesL {
+  background-image: url("./components/assets/images/vinesL.png");
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: calc(0% + 10px) calc(30%);
+  
+}
+
+.vinesR{
+  background-image: url("./components/assets/images/vinesR.png");
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: calc(0% + -10px) calc(30%);
+  
+}
+/* .headerBg {
+  background-image: url("./components/assets/images/dark.jpg");
+  background-size: 240px;
+  width: 100%;
+} */
+
 /* end of header */
 
 /* pages */
@@ -40,10 +71,23 @@ h2 {
 
 /* end of pages */
 
+/* deal page */
+.dealBox {
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.dealLine {
+  border-bottom: 1px solid #575757;
+}
+
+/* end of deal page */
+
 /* footer */
 .footer {
   margin-top: 130px;
-  background-color: grey;
+  background-color: rgba(0, 0, 0, 0.815);
+  color: white;
   padding: 20px;
   display: block;
   margin-left: auto;
@@ -52,10 +96,33 @@ h2 {
   height: 100px;
 }
 
+.footer a {
+  color: white;
+}
+
 #phone {
   float: left;
 }
 
 #address {
   float: right;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    height: 150px;
+  }
+  #address {
+    float: left;
+  }
+  body {
+    background-size: 1400px;
+    background-repeat: no-repeat;
+  }
+  .headerBg {
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center calc(100%);
+    max-width: 100%;
+  }
 }

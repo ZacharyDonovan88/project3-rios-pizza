@@ -13,9 +13,9 @@ const Sides = () => {
 
     return (
       <> 
-        <div className="pagesSection">
+        <div className="pagesSection menuBg">
             <h2>Sides</h2> 
-        </div>
+        
         
             <div className="pagesSection">
                 <div className="menuSection">
@@ -36,6 +36,7 @@ const Sides = () => {
                         </div>
                     </div>
             </div>
+        </div>    
       </>
     );
   };

@@ -73,9 +73,9 @@ const Pizza = () => {
 
     return (
       <> 
-        <div className="pagesSection">
+        <div className="pagesSection menuBg">
             <h2>Traditional Pizza</h2> 
-        </div>
+        
         
             <div className="pagesSection">
                 <div className="menuSection">
@@ -139,10 +139,9 @@ const Pizza = () => {
                         </div>
                     </div>
             </div>
-
-            <div className="pagesSection">
-            <h2>Gourmet Pizza</h2> 
         </div>
+            <div className="pagesSection menuBg">
+            <h2>Gourmet Pizza</h2> 
         
             <div className="pagesSection">
                 <div className="menuSection">
@@ -181,12 +180,12 @@ const Pizza = () => {
                                     <div className="productName">
                                     <a onClick={togglePrawn}>Prawn Special</a>
                                     </div>
-                                    {showPrawn&& <Prawn onClose={togglePrawn} />}
                             </div>
-                        
+                            {showPrawn&& <Prawn onClose={togglePrawn} />}
                         </div>
                     </div>
             </div>
+        </div>    
       </>
     );
   };

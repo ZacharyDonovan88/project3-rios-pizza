@@ -54,9 +54,13 @@ function showSlides(n) {
 
   return (
     <>
-      <div className="header">
-        <h1>Rios Pizza</h1>
+    <div className="">  
+      <div className="header vinesR">
+        <div className="headerBg vinesL">
+          <h1>Rios Pizza</h1>
+        </div>
       </div>
+    </div>
       <div className="slideshow-container">
 
         <div className={`${slideIndex === 0 ? 'showMySlides' : 'mySlides'} fade`}>

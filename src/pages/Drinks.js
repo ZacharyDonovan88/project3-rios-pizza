@@ -13,9 +13,9 @@ const Drinks = () => {
 
     return (
       <> 
-        <div className="pagesSection">
+        <div className="pagesSection menuBg">
             <h2>Drinks</h2> 
-        </div>
+        
         
             <div className="pagesSection">
                 <div className="menuSection">
@@ -80,6 +80,7 @@ const Drinks = () => {
                         </div>
                     </div>
             </div>
+        </div>    
       </>
     );
   };

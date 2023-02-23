@@ -13,9 +13,9 @@ const Desserts = () => {
 
     return (
       <> 
-        <div className="pagesSection">
+        <div className="pagesSection menuBg">
             <h2>Desserts</h2> 
-        </div>
+        
         
             <div className="pagesSection">
                 <div className="menuSection">
@@ -46,6 +46,7 @@ const Desserts = () => {
                         </div>
                     </div>
             </div>
+        </div>    
       </>
     );
   };
