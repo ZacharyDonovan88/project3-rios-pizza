@@ -83,7 +83,7 @@ const Pizza = () => {
 
                         {/* Pepperoni  */}
                             <div className="boxMargin">
-                                <a onClick={togglePep}><img src={require('../components/assets/images/pizza/pep.jpg')} alt="Circle WebSite"/></a>
+                                <a onClick={togglePep}><img src={require('../components/assets/images/pizza/pep.jpg')} alt="Pepperoni Pizza"/></a>
                                     <div className="productName">
                                         <a onClick={togglePep}>Pepperoni</a>
                                     </div>
@@ -93,7 +93,7 @@ const Pizza = () => {
 
                         {/* Margherita */}
                             <div className="boxMargin">
-                                <a onClick={toggleMarg}><img src={require('../components/assets/images/pizza/mar.jpg')} alt="Circle WebSite"/></a>
+                                <a onClick={toggleMarg}><img src={require('../components/assets/images/pizza/mar.jpg')} alt="Margherita Pizza"/></a>
                                     <div className="productName">
                                         <a onClick={toggleMarg}>Margherita</a>
                                     </div>
@@ -102,7 +102,7 @@ const Pizza = () => {
 
                         {/* All Meat */}
                             <div className="boxMargin">
-                                <a onClick={toggleMeat}><img src={require('../components/assets/images/pizza/meat.jpg')} alt="Circle WebSite"/></a>
+                                <a onClick={toggleMeat}><img src={require('../components/assets/images/pizza/meat.jpg')} alt="All Meat Pizza"/></a>
                                     <div className="productName">
                                         <a onClick={toggleMeat}>All Meat</a>
                                     </div>
@@ -111,7 +111,7 @@ const Pizza = () => {
 
                         {/* Supreme */}
                             <div className="boxMargin">
-                                <a onClick={toggleSupreme}><img src={require('../components/assets/images/pizza/sup.jpg')} alt="Circle WebSite"/></a>
+                                <a onClick={toggleSupreme}><img src={require('../components/assets/images/pizza/sup.jpg')} alt="Supreme Pizza"/></a>
                                     <div className="productName">
                                         <a onClick={toggleSupreme}>Supreme</a>
                                     </div>
@@ -120,7 +120,7 @@ const Pizza = () => {
 
                         {/* Vegetarian */}
                             <div className="boxMargin">
-                                <a onClick={toggleVeg}><img src={require('../components/assets/images/pizza/veg.jpg')} alt="Circle WebSite"/></a>
+                                <a onClick={toggleVeg}><img src={require('../components/assets/images/pizza/veg.jpg')} alt="Vegetarian Pizza"/></a>
                                     <div className="productName">
                                         <a onClick={toggleVeg}>Vegetarian</a>
                                     </div>
@@ -129,7 +129,7 @@ const Pizza = () => {
                         
                         {/* Chicken */}
                             <div className="boxMargin">
-                                <a onClick={toggleChick}><img src={require('../components/assets/images/pizza/chick.jpg')} alt="Circle WebSite"/></a>
+                                <a onClick={toggleChick}><img src={require('../components/assets/images/pizza/chick.jpg')} alt="Chicken Pizza"/></a>
                                     <div className="productName">
                                         <a onClick={toggleChick}>Chicken</a>
                                     </div>
@@ -150,7 +150,7 @@ const Pizza = () => {
 
                         {/* Cream Chicken */}
                             <div className="boxMargin">
-                                <a onClick={toggleCChick}><img src={require('../components/assets/images/pizza/cream.jpg')} alt="Circle WebSite"/></a>
+                                <a onClick={toggleCChick}><img src={require('../components/assets/images/pizza/cream.jpg')} alt="Cream Chicken Pizza"/></a>
                                     <div className="productName">
                                         <a onClick={toggleCChick}>Cream Chicken</a>
                                     </div>
@@ -159,7 +159,7 @@ const Pizza = () => {
 
                         {/* Gourmet Veg */}
                             <div className="boxMargin">
-                                <a onClick={toggleGVeg}><img src={require('../components/assets/images/pizza/gveg.jpg')} alt="Circle WebSite"/></a>
+                                <a onClick={toggleGVeg}><img src={require('../components/assets/images/pizza/gveg.jpg')} alt="Gourmet Veg Pizza"/></a>
                                     <div className="productName">
                                         <a onClick={toggleGVeg}>Gourmet Veg</a>
                                     </div>
@@ -168,7 +168,7 @@ const Pizza = () => {
 
                         {/* Seafood */}
                             <div className="boxMargin">
-                                <a onClick={toggleSea}><img src={require('../components/assets/images/pizza/sea.jpg')} alt="Circle WebSite"/></a>
+                                <a onClick={toggleSea}><img src={require('../components/assets/images/pizza/sea.jpg')} alt="Seafood Pizza"/></a>
                                     <div className="productName">
                                         <a onClick={toggleSea}>Seafood</a>
                                     </div>
@@ -177,7 +177,7 @@ const Pizza = () => {
 
                         {/* Prawn Special */}
                             <div className="boxMargin">
-                                <a onClick={togglePrawn}><img src={require('../components/assets/images/pizza/prawn.jpg')} alt="Circle WebSite"/></a>
+                                <a onClick={togglePrawn}><img src={require('../components/assets/images/pizza/prawn.jpg')} alt="Prawn Special Pizza"/></a>
                                     <div className="productName">
                                     <a onClick={togglePrawn}>Prawn Special</a>
                                     </div>

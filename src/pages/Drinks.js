@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 // pop ups
 
 
-const Sides = () => {
+const Drinks = () => {
     
 
     return (
@@ -23,7 +23,7 @@ const Sides = () => {
                         
                     {/* Coke 1.25mL */}
                         <div className="boxMargin">
-                                <a><img src={require('../components/assets/images/drinks/coke.jpg')} alt="Circle WebSite"/></a>
+                                <a><img src={require('../components/assets/images/drinks/coke.jpg')} alt="Coke 1.25mL"/></a>
                                     <div className="productName">
                                         <a>Coke 1.25mL - $4.50</a>
                                     </div>
@@ -31,7 +31,7 @@ const Sides = () => {
                     {/* Diet coke 1.25mL */}
                             </div>
                               <div className="boxMargin">
-                                  <a><img src={require('../components/assets/images/drinks/dietCoke.jpg')} alt="Circle WebSite"/></a>
+                                  <a><img src={require('../components/assets/images/drinks/dietCoke.jpg')} alt="Diet Coke 1.25mL"/></a>
                                       <div className="productName">
                                           <a>Diet Coke 1.25mL - $4.50</a>
                                       </div>
@@ -39,7 +39,7 @@ const Sides = () => {
 
                     {/* Fanta 1.25mL */}
                               <div className="boxMargin">
-                                  <a><img src={require('../components/assets/images/drinks/fanta.jpg')} alt="Circle WebSite"/></a>
+                                  <a><img src={require('../components/assets/images/drinks/fanta.jpg')} alt="Fanta 1.25mL"/></a>
                                       <div className="productName">
                                           <a>Fanta 1.25mL - $4.50</a>
                                       </div>
@@ -47,7 +47,7 @@ const Sides = () => {
 
                     {/* Solo 1.25mL */}
                               <div className="boxMargin">
-                                  <a><img src={require('../components/assets/images/drinks/solo.jpg')} alt="Circle WebSite"/></a>
+                                  <a><img src={require('../components/assets/images/drinks/solo.jpg')} alt="Solo 1.25mL"/></a>
                                       <div className="productName">
                                           <a>Solo 1.25mL - $4.50</a>
                                       </div>
@@ -55,7 +55,7 @@ const Sides = () => {
 
                     {/* Sprite 1.25mL */}
                     <div className="boxMargin">
-                                  <a><img src={require('../components/assets/images/drinks/sprite.jpg')} alt="Circle WebSite"/></a>
+                                  <a><img src={require('../components/assets/images/drinks/sprite.jpg')} alt="Sprite 1.25mL"/></a>
                                       <div className="productName">
                                           <a>Sprite 1.25mL - $4.50</a>
                                       </div>
@@ -63,7 +63,7 @@ const Sides = () => {
 
                     {/* Coke can */}
                     <div className="boxMargin">
-                                  <a><img src={require('../components/assets/images/drinks/cokeCan.jpg')} alt="Circle WebSite"/></a>
+                                  <a><img src={require('../components/assets/images/drinks/cokeCan.jpg')} alt="Coke Can"/></a>
                                       <div className="productName">
                                           <a>Coke can - $2</a>
                                       </div>
@@ -71,7 +71,7 @@ const Sides = () => {
 
                     {/* Coke can */}
                     <div className="boxMargin">
-                                  <a><img src={require('../components/assets/images/drinks/lemonCan.jpg')} alt="Circle WebSite"/></a>
+                                  <a><img src={require('../components/assets/images/drinks/lemonCan.jpg')} alt="Lemonade Can"/></a>
                                       <div className="productName">
                                           <a>Lemonade can - $2</a>
                                       </div>
@@ -84,4 +84,4 @@ const Sides = () => {
     );
   };
   
-  export default Sides;
+  export default Drinks;

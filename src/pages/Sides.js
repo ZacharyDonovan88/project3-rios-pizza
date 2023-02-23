@@ -21,13 +21,13 @@ const Sides = () => {
                 <div className="menuSection">
                         <div>
                         <div className="boxMargin">
-                                <a><img src={require('../components/assets/images/sides/gb.jpg')} alt="Circle WebSite"/></a>
+                                <a><img src={require('../components/assets/images/sides/gb.jpg')} alt="Garlic Bread"/></a>
                                     <div className="productName">
                                         <a>Garlic Bread - $4.50</a>
                                     </div>
                             </div>
                               <div className="boxMargin">
-                                  <a><img src={require('../components/assets/images/sides/gbPizza.jpg')} alt="Circle WebSite"/></a>
+                                  <a><img src={require('../components/assets/images/sides/gbPizza.jpg')} alt="Cheesy Garlic Pizza"/></a>
                                       <div className="productName">
                                           <a>Cheesy Garlic Pizza- $7.50</a>
                                       </div>

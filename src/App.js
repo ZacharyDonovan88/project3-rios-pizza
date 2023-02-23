@@ -9,7 +9,8 @@ import Pizza from "./pages/Pizza.js";
 import Navbar from "./components/Navbar.js";
 import Footer from "./components/Footer.js";
 import Sides from "./pages/Sides";
-import Drinks from "./pages/Drinks.js"
+import Drinks from "./pages/Drinks.js";
+import Desserts from "./pages/Desserts.js";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route exact path="/Pizza" element={<Pizza />} />
             <Route exact path="/Sides" element={<Sides />} />
             <Route exact path="/Drinks" element={<Drinks />} />
+            <Route exact path="/Desserts" element={<Desserts />} />
           </Routes>
           <Footer />
         </>

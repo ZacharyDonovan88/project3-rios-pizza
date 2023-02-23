@@ -22,7 +22,7 @@ function Home() {
             <Link to="/Drinks">Drinks</Link>
             </li>  
             <li>
-            <Link to="/pizza">Desserts</Link>
+            <Link to="/Desserts">Desserts</Link>
             </li>  
             <li>
             <Link to="/pizza">Deals</Link>
