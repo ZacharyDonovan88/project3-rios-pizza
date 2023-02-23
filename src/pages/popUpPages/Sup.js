@@ -11,7 +11,7 @@ const Pizza = () => {
                 <h3>Ingredients:</h3>
             </div>
             <div className="popBox">
-                <p>RIO'S SAUCE, MOZZARELLA, FRESH TOMATO, BASIL TOPPED WITH OREGANO & GARLIC OIL</p>
+                <p>RIO'S SAUCE, MOZZARELLA, HAM, ONION, MUSHROOM, CAPSICUM, PINAPPLE, SALAMI AND BACON</p>
             </div>
             <div>
                 <h3>Prices:</h3>

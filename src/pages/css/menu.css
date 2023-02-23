@@ -33,7 +33,7 @@
 }
 
 .productName a:hover {
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
 }
 
 .boxMargin {

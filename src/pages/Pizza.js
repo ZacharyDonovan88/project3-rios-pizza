@@ -8,10 +8,14 @@ import { Link } from "react-router-dom";
 // pop ups
 import Pep from "./popUpPages/Pep.js";
 import Marg from "./popUpPages/Marg.js";
-
-
-
-
+import Meat from "./popUpPages/Meat.js";
+import Sup from "./popUpPages/Sup.js";
+import Veg from "./popUpPages/Veg.js";
+import Chick from "./popUpPages/Chick.js";
+import CChick from "./popUpPages/CChick.js";
+import GVeg from "./popUpPages/GVeg.js";
+import Sea from "./popUpPages/Sea.js";
+import Prawn from "./popUpPages/Prawn.js";
 
 const Pizza = () => {
     
@@ -24,7 +28,47 @@ const Pizza = () => {
     const [showMarg, setShowMarg] = useState(false);
     const toggleMarg = () => {
         setShowMarg(!showMarg);
-      };
+    };
+    
+    const [showMeat, setShowMeat] = useState(false);
+    const toggleMeat = () => {
+        setShowMeat(!showMeat);
+    };
+
+    const [showSupreme, setShowSupreme] = useState(false);
+    const toggleSupreme = () => {
+        setShowSupreme(!showSupreme);
+    };
+
+    const [showVeg, setShowVeg] = useState(false);
+    const toggleVeg = () => {
+        setShowVeg(!showVeg);
+    };
+
+    const [showChick, setShowChick] = useState(false);
+    const toggleChick = () => {
+        setShowChick(!showChick);
+    };
+
+    const [showCChick, setShowCChick] = useState(false);
+    const toggleCChick = () => {
+        setShowCChick(!showCChick);
+    };
+
+    const [showGVeg, setShowGVeg] = useState(false);
+    const toggleGVeg = () => {
+        setShowGVeg(!showGVeg);
+    };
+
+    const [showSea, setShowSea] = useState(false);
+    const toggleSea = () => {
+        setShowSea(!showSea);
+    };
+
+    const [showPrawn, setShowPrawn] = useState(false);
+    const togglePrawn = () => {
+        setShowPrawn(!showPrawn);
+    };
       
 
     return (
@@ -37,7 +81,7 @@ const Pizza = () => {
                 <div className="menuSection">
                         <div>
 
-                            {/* Pepperoni  */}
+                        {/* Pepperoni  */}
                             <div className="boxMargin">
                                 <a onClick={togglePep}><img src={require('../components/assets/images/pizza/pep.jpg')} alt="Circle WebSite"/></a>
                                     <div className="productName">
@@ -47,42 +91,50 @@ const Pizza = () => {
                             {showPep && <Pep onClose={togglePep} />}
 
 
-                        
+                        {/* Margherita */}
                             <div className="boxMargin">
                                 <a onClick={toggleMarg}><img src={require('../components/assets/images/pizza/mar.jpg')} alt="Circle WebSite"/></a>
                                     <div className="productName">
-                                    <a onClick={toggleMarg}>Margherita</a>
+                                        <a onClick={toggleMarg}>Margherita</a>
                                     </div>
                             </div>
                             {showMarg && <Marg onClose={toggleMarg} />}
+
+                        {/* All Meat */}
+                            <div className="boxMargin">
+                                <a onClick={toggleMeat}><img src={require('../components/assets/images/pizza/meat.jpg')} alt="Circle WebSite"/></a>
+                                    <div className="productName">
+                                        <a onClick={toggleMeat}>All Meat</a>
+                                    </div>
+                            </div>
+                            {showMeat && <Meat onClose={toggleMeat} />}
+
+                        {/* Supreme */}
+                            <div className="boxMargin">
+                                <a onClick={toggleSupreme}><img src={require('../components/assets/images/pizza/sup.jpg')} alt="Circle WebSite"/></a>
+                                    <div className="productName">
+                                        <a onClick={toggleSupreme}>Supreme</a>
+                                    </div>
+                            </div>
+                            {showSupreme && <Sup onClose={toggleSupreme} />}
+
+                        {/* Vegetarian */}
+                            <div className="boxMargin">
+                                <a onClick={toggleVeg}><img src={require('../components/assets/images/pizza/veg.jpg')} alt="Circle WebSite"/></a>
+                                    <div className="productName">
+                                        <a onClick={toggleVeg}>Vegetarian</a>
+                                    </div>
+                            </div>
+                            {showVeg && <Veg onClose={toggleVeg} />}
                         
+                        {/* Chicken */}
                             <div className="boxMargin">
-                                <a href="" target="_blank"><img src={require('../components/assets/images/pizza/meat.jpg')} alt="Circle WebSite"/></a>
+                                <a onClick={toggleChick}><img src={require('../components/assets/images/pizza/chick.jpg')} alt="Circle WebSite"/></a>
                                     <div className="productName">
-                                        <a><Link to="/">All Meat</Link></a>
+                                        <a onClick={toggleChick}>Chicken</a>
                                     </div>
                             </div>
-
-                            <div className="boxMargin">
-                                <a href="" target="_blank"><img src={require('../components/assets/images/pizza/sup.jpg')} alt="Circle WebSite"/></a>
-                                    <div className="productName">
-                                        <a><Link to="/">Supreme</Link></a>
-                                    </div>
-                            </div>
-
-                            <div className="boxMargin">
-                                <a href="" target="_blank"><img src={require('../components/assets/images/pizza/veg.jpg')} alt="Circle WebSite"/></a>
-                                    <div className="productName">
-                                        <a><Link to="/">Vegetarian</Link></a>
-                                    </div>
-                            </div>
-
-                            <div className="boxMargin">
-                                <a href="" target="_blank"><img src={require('../components/assets/images/pizza/chick.jpg')} alt="Circle WebSite"/></a>
-                                    <div className="productName">
-                                        <a><Link to="/">Chicken</Link></a>
-                                    </div>
-                            </div>
+                            {showChick && <Chick onClose={toggleChick} />}
 
                         </div>
                     </div>
@@ -96,33 +148,40 @@ const Pizza = () => {
                 <div className="menuSection">
                         <div>
 
-                        
+                        {/* Cream Chicken */}
                             <div className="boxMargin">
-                                <a href="" target="_blank"><img src={require('../components/assets/images/pizza/cream.jpg')} alt="Circle WebSite"/></a>
+                                <a onClick={toggleCChick}><img src={require('../components/assets/images/pizza/cream.jpg')} alt="Circle WebSite"/></a>
                                     <div className="productName">
-                                        <a><Link to="/">Cream Chicken</Link></a>
+                                        <a onClick={toggleCChick}>Cream Chicken</a>
                                     </div>
                             </div>
+                            {showCChick && <CChick onClose={toggleCChick} />}
 
+                        {/* Gourmet Veg */}
                             <div className="boxMargin">
-                                <a href="" target="_blank"><img src={require('../components/assets/images/pizza/gveg.jpg')} alt="Circle WebSite"/></a>
+                                <a onClick={toggleGVeg}><img src={require('../components/assets/images/pizza/gveg.jpg')} alt="Circle WebSite"/></a>
                                     <div className="productName">
-                                        <a><Link to="/">Gourmet Veg</Link></a>
+                                        <a onClick={toggleGVeg}>Gourmet Veg</a>
                                     </div>
                             </div>
+                            {showGVeg && <GVeg onClose={toggleGVeg} />}
 
+                        {/* Seafood */}
                             <div className="boxMargin">
-                                <a href="" target="_blank"><img src={require('../components/assets/images/pizza/sea.jpg')} alt="Circle WebSite"/></a>
+                                <a onClick={toggleSea}><img src={require('../components/assets/images/pizza/sea.jpg')} alt="Circle WebSite"/></a>
                                     <div className="productName">
-                                        <a><Link to="/">Seafood</Link></a>
+                                        <a onClick={toggleSea}>Seafood</a>
                                     </div>
                             </div>
+                            {showSea && <Sea onClose={toggleSea} />}
 
+                        {/* Prawn Special */}
                             <div className="boxMargin">
-                                <a href="" target="_blank"><img src={require('../components/assets/images/pizza/prawn.jpg')} alt="Circle WebSite"/></a>
+                                <a onClick={togglePrawn}><img src={require('../components/assets/images/pizza/prawn.jpg')} alt="Circle WebSite"/></a>
                                     <div className="productName">
-                                        <a><Link to="/">Prawn Special</Link></a>
+                                    <a onClick={togglePrawn}>Prawn Special</a>
                                     </div>
+                                    {showPrawn&& <Prawn onClose={togglePrawn} />}
                             </div>
                         
                         </div>
