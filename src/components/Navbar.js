@@ -26,7 +26,13 @@ function Home() {
             </li>  
             <li>
             <Link to="/Deals">Deals</Link>
-            </li>  
+            </li>
+            <li>
+            <Link to="/Login">Log In</Link>
+            </li>
+            <li>
+            <Link to="/Sign Up">Sign Up</Link>
+            </li>   
         </ul>
       </nav>
     </>

@@ -83,6 +83,12 @@ h2 {
 
 /* end of deal page */
 
+/* login */
+.loginMarg {
+  padding: 10px;
+}
+/* end of login */
+
 /* footer */
 .footer {
   margin-top: 130px;
