@@ -19,7 +19,7 @@ function Home() {
             <Link to="/Sides">Sides</Link>
             </li>  
             <li>
-            <Link to="/pizza">Drinks</Link>
+            <Link to="/Drinks">Drinks</Link>
             </li>  
             <li>
             <Link to="/pizza">Desserts</Link>

@@ -8,7 +8,8 @@ import Home from "./components/Home.js";
 import Pizza from "./pages/Pizza.js";
 import Navbar from "./components/Navbar.js";
 import Footer from "./components/Footer.js";
-import Sides from "./pages/Sides"
+import Sides from "./pages/Sides";
+import Drinks from "./pages/Drinks.js"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Routes>
             <Route exact path="/Pizza" element={<Pizza />} />
             <Route exact path="/Sides" element={<Sides />} />
+            <Route exact path="/Drinks" element={<Drinks />} />
           </Routes>
           <Footer />
         </>
